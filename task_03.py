@@ -7,7 +7,7 @@ import produce
 
 
 class Apple(produce.Produce):
-    """A subclass of the produce class.
+    """A subclass of the Produce class.
 
     Args:
         None
