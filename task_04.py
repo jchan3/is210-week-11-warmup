@@ -19,6 +19,11 @@ class CustomCar(car.Car):
         Attributes:
             color (string): The color of the car.
             tires (list): A list of CustomTire() objects.
+
+        Examples:
+            >>> mycar = CustomCar()
+            >>> len(mycar.tires)
+            4
         """
         car.Car.__init__(self, color)
 
@@ -46,8 +51,8 @@ class CustomTire(car.Tire):
             miles (integer): The number of miles on the Tire. Defaults to 0.
 
         Attributes:
-           miles (integer): The number of miles on the Tire.
-           maximum_miles (integer): A pseudo_private class attribute for
+            miles (integer): The number of miles on the Tire.
+            maximum_miles (integer): A pseudo_private class attribute for
                the maximum miles on a tire.
         """
         car.Tire.__init__(self, miles)
