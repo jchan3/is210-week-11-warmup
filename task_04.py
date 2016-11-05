@@ -10,7 +10,7 @@ class CustomCar(car.Car):
     """A subclass of the Car class."""
 
     def __init__(self, color='red', tires=None):
-        """Constructor for the Car() class.
+        """Constructor for the CustomCar() class.
 
         Args:
             color (string): The color of the car. Defaults to ``'red'``.
